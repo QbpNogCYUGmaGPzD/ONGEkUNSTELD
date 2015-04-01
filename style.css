@@ -22,7 +22,7 @@ Text Domain:ONGEkUNSTELD V2
 #page {
 	background-color:#e8e8e8;
 	background-image:url("data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSI1IiBoZWlnaHQ9IjUiPgo8cmVjdCB3aWR0aD0iNSIgaGVpZ2h0PSI1IiBmaWxsPSIjZThlOGU4Ij48L3JlY3Q+CjxyZWN0IHdpZHRoPSIxIiBoZWlnaHQ9IjEiIGZpbGw9IiNjY2MiPjwvcmVjdD4KPC9zdmc+");
-	max-width:1280px;
+	max-width:100%;
 }
 body {
 	background-color:#FFF;
@@ -798,14 +798,19 @@ div.sharedaddy h3 {
 /*------------------------- footer --------------------------------*/
 /*static footer*/
 .site-footer {
-	background-color:#E8E8E8;
+	background-color:#e8e8e8;
 	font-size:12px;
 	letter-spacing:0.1em;
 	position:relative;
 	z-index:3;
 	padding:none;
+    left: 0;
+    bottom: 0;
+    width: 100%;
 }
 .site-info {
+    max-width: 1280px;
+    margin: 0 auto;
 	padding:0px 15px;
 	line-height:30px;
 	color:#000;
