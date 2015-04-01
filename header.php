@@ -55,6 +55,7 @@ $(function() {
 <div id="page" class="hfeed site">
 
 	<header id="masthead" class="site-header clearHeader" role="banner">
+        <div class="header-wrap">
 		<div class="header-main">
 			<h1 class="site-title"><a href="<?php echo esc_url( home_url( '/' ) ); ?>" rel="home"><?php bloginfo( 'name' ); ?></a></h1>
 
@@ -65,6 +66,7 @@ $(function() {
 				<?php wp_nav_menu( array( 'theme_location' => 'primary', 'menu_class' => 'nav-menu' ) ); ?>
 			</nav>
 		</div>
+            </div>
 
 		<div id="search-container" class="search-box-wrapper hide">
 			<div class="search-box">
