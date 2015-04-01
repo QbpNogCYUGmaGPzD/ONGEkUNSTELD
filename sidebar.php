@@ -42,8 +42,6 @@
 
         </div> <!-- #seconday-mobile -->
 
-<?php
-	else:
 
 		
 <?php 
