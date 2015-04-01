@@ -198,7 +198,6 @@ div.entry-header-Wrapper .entry-content {
 	position:fixed;
 }
 nav {
-	background-color:none;
 	color:#000000;
 	letter-spacing:0.1em;
 }
@@ -215,6 +214,8 @@ nav {
 	color:#000;
 	width:90px;
 }
+
+/*Grijze achtergrond voor alle menu opties op hover*/
 .primary-navigation ul ul a:hover {
 	background-color:#828282;
 	color:#fff;
@@ -223,27 +224,33 @@ nav {
 	background-color:#e8e8e8;
 	color:#000;
 }
-/*Categorie Columns*/	#menu-item-13020:hover {
+/*Categorie Columns*/	
+#menu-item-13020:hover {
 	background-color:#82AAB9 !important;
 	color:#000;
 }
-/*Categorie Beeldend*/	#menu-item-13035:hover {
+/*Categorie Beeldend*/	
+#menu-item-13035:hover {
 	background-color:#D2BE45 !important;
 	color:#000;
 }
-/*Categorie Film*/	#menu-item-12953:hover {
+/*Categorie Film*/	
+#menu-item-12953:hover {
 	background-color:#55426F !important;
 	color:#000;
 }
-/*Categorie Literatuur*/	#menu-item-12954:hover {
+/*Categorie Literatuur*/	
+#menu-item-12954:hover {
 	background-color:#7178AF !important;
 	color:#000;
 }
-/*Categorie Muziek*/	#menu-item-12955:hover {
+/*Categorie Muziek*/	
+#menu-item-12955:hover {
 	background-color:#6ACCA5 !important;
 	color:#000;
 }
-/*Categorie Theater*/	#menu-item-12447:hover {
+/*Categorie Theater*/	
+#menu-item-12447:hover {
 	background-color:#C53552 !important;
 	color:#000;
 }
@@ -577,7 +584,6 @@ h2+p {
 }
 .nav-menu {
 	float:right;
-	background-color:none;
 	color:#000000;
 	font-style:normal;
 	font-weight:700;
