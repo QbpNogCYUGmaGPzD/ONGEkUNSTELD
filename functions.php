@@ -230,5 +230,14 @@ function yourprefix_private_title_format( $format ) {
 		
 add_filter('body_class','add_category_name');
 	
+/*Custom Header Dimensies -- 1280 pixels mutherfucker */
+function wpse_custom_header_setup() {
+    add_theme_support( 'custom-header', apply_filters( 'wpse_header_args', array(
+        'width'                  => 1280,
+        'height'                 => 240,
+    ) ) );
+}
+add_action( 'after_setup_theme', 'wpse_custom_header_setup' );	
+	
 
 ?>
