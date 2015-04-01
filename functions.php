@@ -219,7 +219,7 @@ function yourprefix_private_title_format( $format ) {
     return '%s';
 }	
 
-/*Voeg custom body class toe om menubalkj te stijlen op single pages */
+/*Voeg custom body class toe om menubalk te stijlen op single pages */
 	function add_category_name($classes = '') {
 		if(is_single()) {
 			  $category = get_the_category();
