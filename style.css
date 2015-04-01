@@ -225,33 +225,38 @@ nav {
 	color:#000;
 }
 /*Categorie Columns*/	
-#menu-item-13020:hover {
-	background-color:#82AAB9 !important;
+#menu-item-13020 :hover{
+	background-color: #82AAB9 !important;
 	color:#000;
 }
+
 /*Categorie Beeldend*/	
-#menu-item-13035:hover {
-	background-color:#D2BE45 !important;
+#menu-item-13035 :hover{
+	background-color: #D2BE45 !important;
 	color:#000;
 }
+
 /*Categorie Film*/	
-#menu-item-12953:hover {
-	background-color:#55426F !important;
+#menu-item-12953 :hover{
+	background-color: #55426F !important;
 	color:#000;
 }
+
 /*Categorie Literatuur*/	
-#menu-item-12954:hover {
-	background-color:#7178AF !important;
+#menu-item-12954 :hover{
+	background-color: #7178AF !important;
 	color:#000;
 }
+
 /*Categorie Muziek*/	
-#menu-item-12955:hover {
-	background-color:#6ACCA5 !important;
+#menu-item-12955 :hover{
+	background-color: #6ACCA5 !important;
 	color:#000;
 }
+
 /*Categorie Theater*/	
-#menu-item-12447:hover {
-	background-color:#C53552 !important;
+#menu-item-12447 :hover{
+	background-color: #C53552 !important;
 	color:#000;
 }
 .site-navigation a {
