@@ -218,7 +218,17 @@ add_filter( 'protected_title_format', 'yourprefix_private_title_format' );
 function yourprefix_private_title_format( $format ) {
     return '%s';
 }	
-	
+
+/*Voeg custom body class toe om menubalkj te stijlen op single pages */
+	function add_category_name($classes = '') {
+		if(is_single()) {
+			  $category = get_the_category();
+			  $classes[] = 'category-'.$category[0]->slug; 
+		   }
+		   return $classes;
+		}
+		
+add_filter('body_class','add_category_name');
 	
 
 ?>
