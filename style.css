@@ -2,8 +2,8 @@
 Theme Name:ONGEkUNSTELD 
 Theme URI:https://www.ongekunsteld.net 
 Description:ONGEkUNSTELD Zonder Opsmuk 
-Author:Dennis Neumann / Marco van Zomeren / Nikos ten Hoedt Author 
-URI:http://www.galmoer.nl 
+Author:Dennis Neumann / Marco van Zomeren / Nikos ten Hoedt 
+Author URI:https://www.ongekunsteld.net 
 Template:twentyfourteen 
 Version:1.0.0 
 Text Domain:ONGEkUNSTELD V2
@@ -22,7 +22,7 @@ Text Domain:ONGEkUNSTELD V2
 #page {
 	background-color:#e8e8e8;
 	background-image:url("data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSI1IiBoZWlnaHQ9IjUiPgo8cmVjdCB3aWR0aD0iNSIgaGVpZ2h0PSI1IiBmaWxsPSIjZThlOGU4Ij48L3JlY3Q+CjxyZWN0IHdpZHRoPSIxIiBoZWlnaHQ9IjEiIGZpbGw9IiNjY2MiPjwvcmVjdD4KPC9zdmc+");
-	max-width:1280px;
+	max-width:100%;
 }
 body {
 	background-color:#FFF;
@@ -83,6 +83,8 @@ button:active,.button:active,input[type="button"]:active,input[type="reset"]:act
 /*Header image alleen op front page*/
 #site-banner {
 	display:none;
+	margin:0 auto;
+	max-width:1280px;
 }
 .home #site-banner {
 	display:block;
@@ -98,8 +100,14 @@ button:active,.button:active,input[type="button"]:active,input[type="reset"]:act
 .page-id-13327 #site-banner img {
 	opacity:0;
 }
+.header-wrap {
+    max-width: 1280px;
+    margin: 0 auto;
+}
 .header-main {
 	display:inline;
+
+    
 }
 .site-title {
 	margin:0 0 0 20px;
@@ -128,9 +136,9 @@ button:active,.button:active,input[type="button"]:active,input[type="reset"]:act
 	transition:box-shadow 2s;
 }
 .headershadow {
-	-webkit-box-shadow: 0px 10px 14px 0px rgba(50, 50, 50, 0.21);
-	-moz-box-shadow:    0px 10px 14px 0px rgba(50, 50, 50, 0.21);
-	box-shadow:         0px 10px 14px 0px rgba(50, 50, 50, 0.21);
+	-webkit-box-shadow: 0px 4px 4px 0px rgba(50, 50, 50, 0.21);
+	-moz-box-shadow:    0px 4px 4px 0px rgba(50, 50, 50, 0.21);
+	box-shadow:         0px 4px 4px 0px rgba(50, 50, 50, 0.21);
 	-webkit-transition:box-shadow 1.2s;
 	-moz-transition:box-shadow 1.2s;
 	transition:box-shadow 1.2s;
@@ -192,10 +200,13 @@ div.entry-header-Wrapper .entry-content {
 /* enhancing the topbar */
 #big-top {
 	display:block;
+    left: 0;
 }
 #masthead {
 	height:48px;
 	position:fixed;
+    left: 0 !important;
+    max-width: 100%;
 }
 nav {
 	color:#000000;
@@ -278,9 +289,9 @@ nav {
 .primary-navigation ul ul {
 	background-color:#FFF;
 	color:#000000;
-	-webkit-box-shadow:0px 10px 26px 0px rgba(50,50,50,0.3);
-	-moz-box-shadow:0px 10px 26px 0px rgba(50,50,50,0.3);
-	box-shadow: 0px 10px 26px 0px rgba(50,50,50,0.3);
+	-webkit-box-shadow: 0px 4px 4px 0px rgba(50, 50, 50, 0.21);
+	-moz-box-shadow:    0px 4px 4px 0px rgba(50, 50, 50, 0.21);
+	box-shadow:         0px 4px 4px 0px rgba(50, 50, 50, 0.21);
 }
 /*Nav onder Hoofdmenu voorpgania*/
 #headerMenu {
@@ -399,6 +410,13 @@ nav {
 	max-width:700px;
 	padding-bottom:25px;
 	padding-top:7px;
+}    
+.entry-summary {
+    font-family:"lft-etica",sans-serif;
+    font-weight: 200;
+    letter-spacing: 0.1em;
+    font-style: normal;
+
 }
 .entry-content {
 	text-align:justify;
@@ -789,14 +807,19 @@ div.sharedaddy h3 {
 /*------------------------- footer --------------------------------*/
 /*static footer*/
 .site-footer {
-	background-color:#E8E8E8;
+	background-color:#e8e8e8;
 	font-size:12px;
 	letter-spacing:0.1em;
 	position:relative;
 	z-index:3;
 	padding:none;
+    left: 0;
+    bottom: 0;
+    width: 100%;
 }
 .site-info {
+    max-width: 1280px;
+    margin: 0 auto;
 	padding:0px 15px;
 	line-height:30px;
 	color:#000;

@@ -55,6 +55,7 @@ $(function() {
 <div id="page" class="hfeed site">
 
 	<header id="masthead" class="site-header clearHeader" role="banner">
+        <div class="header-wrap">
 		<div class="header-main">
 			<h1 class="site-title"><a href="<?php echo esc_url( home_url( '/' ) ); ?>" rel="home"><?php bloginfo( 'name' ); ?></a></h1>
 
@@ -65,6 +66,7 @@ $(function() {
 				<?php wp_nav_menu( array( 'theme_location' => 'primary', 'menu_class' => 'nav-menu' ) ); ?>
 			</nav>
 		</div>
+            </div>
 
 		<div id="search-container" class="search-box-wrapper hide">
 			<div class="search-box">
@@ -80,8 +82,7 @@ $(function() {
 	<?php endif; ?>
 	
 	<!-- #masthead -->
-
-		<!--mogelijkheid tot extra menu frontpage  <div id="headerMenu"><?php wp_list_categories('exclude=3,1&title_li=' ); ?></div> -->		
+		
 	<!--introTekst -->
 	<?php if ( is_home()) : ?>
 	<div class="entry-header-Wrapper">
