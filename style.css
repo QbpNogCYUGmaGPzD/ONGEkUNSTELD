@@ -2,8 +2,8 @@
 Theme Name:ONGEkUNSTELD 
 Theme URI:https://www.ongekunsteld.net 
 Description:ONGEkUNSTELD Zonder Opsmuk 
-Author:Dennis Neumann / Marco van Zomeren / Nikos ten Hoedt Author 
-URI:http://www.galmoer.nl 
+Author:Dennis Neumann / Marco van Zomeren / Nikos ten Hoedt 
+Author URI:https://www.ongekunsteld.net 
 Template:twentyfourteen 
 Version:1.0.0 
 Text Domain:ONGEkUNSTELD V2
@@ -410,6 +410,13 @@ nav {
 	max-width:700px;
 	padding-bottom:25px;
 	padding-top:7px;
+}    
+.entry-summary {
+    font-family:"lft-etica",sans-serif;
+    font-weight: 200;
+    letter-spacing: 0.1em;
+    font-style: normal;
+
 }
 .entry-content {
 	text-align:justify;
