@@ -82,8 +82,7 @@ $(function() {
 	<?php endif; ?>
 	
 	<!-- #masthead -->
-
-		<!--mogelijkheid tot extra menu frontpage  <div id="headerMenu"><?php wp_list_categories('exclude=3,1&title_li=' ); ?></div> -->		
+		
 	<!--introTekst -->
 	<?php if ( is_home()) : ?>
 	<div class="entry-header-Wrapper">
